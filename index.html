@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MV-Labs Technology — Games & Projects</title>
+  <meta name="description" content="MV-Labs Technology creates engaging games and innovative software. Explore our titles and projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="gradient-orb gradient-orb-1"></div>
+  <div class="gradient-orb gradient-orb-2"></div>
+  <div class="gradient-orb gradient-orb-3"></div>
+
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="assets/logo.png" alt="MV-Labs Technology" class="logo-img" width="40" height="40">
+      <span class="logo-text"><span class="logo-accent">MV-Labs</span><span class="logo-rest"> Technology</span></span>
+    </a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#games">Games</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="hero-tag">We build experiences</p>
+      <h1 class="hero-title">
+        <span class="line">Games.</span>
+        <span class="line">Apps.</span>
+        <span class="line accent">Ideas.</span>
+      </h1>
+      <p class="hero-desc">MV-Labs Technology is a studio crafting memorable games and software. From playful adventures to strategic battles—we turn ideas into reality.</p>
+      <a href="#games" class="cta-primary">
+        <span>Explore our work</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+      </a>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-inner">
+        <span class="section-label">Who we are</span>
+        <h2 class="section-title">We're a small team with big ambitions</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">◆</div>
+            <h3>Creative</h3>
+            <p>We design games and apps that are fun, intuitive, and visually striking.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">◇</div>
+            <h3>Technical</h3>
+            <p>Solid engineering and performance so every experience runs smoothly.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">○</div>
+            <h3>User-first</h3>
+            <p>We put players and users at the center of every decision we make.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="section games">
+      <div class="section-inner">
+        <span class="section-label">Our games</span>
+        <h2 class="section-title">Play our titles</h2>
+        <p class="section-desc">Play in your browser or get the app on Google Play.</p>
+        <div class="games-grid">
+          <article class="game-card" data-game="puppy">
+            <div class="game-card-bg"></div>
+            <div class="game-card-content">
+              <span class="game-badge">Casual</span>
+              <h3>Find My Puppy</h3>
+              <p>A heartwarming puzzle adventure. Find and reunite adorable puppies in a charming world.</p>
+              <div class="game-links">
+                <a href="https://findmypuppy.onrender.com/" class="play-web" target="_blank" rel="noopener noreferrer">Play in browser</a>
+                <a href="https://play.google.com/store/apps/details?id=com.findmypuppy.app2" class="play-badge" target="_blank" rel="noopener noreferrer">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" width="180" height="52">
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="game-card" data-game="tidal">
+            <div class="game-card-bg"></div>
+            <div class="game-card-content">
+              <span class="game-badge">Strategy</span>
+              <h3>Tidal Warfare</h3>
+              <p>Command the seas. Build your fleet, outsmart opponents, and dominate in this naval strategy game.</p>
+              <div class="game-links">
+                <a href="https://tidalwarefare.onrender.com/" class="play-web" target="_blank" rel="noopener noreferrer">Play in browser</a>
+                <a href="https://play.google.com/store/apps/details?id=com.mvtechology.tidalwarfare" class="play-badge" target="_blank" rel="noopener noreferrer">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" width="180" height="52">
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-inner">
+        <span class="section-label">Beyond games</span>
+        <h2 class="section-title">Other projects</h2>
+        <p class="section-desc">Software and tools we've built for productivity and innovation.</p>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-number">01</div>
+            <h3>Mobile & Web Apps</h3>
+            <p>Custom applications tailored to solve real problems for businesses and users.</p>
+          </div>
+          <div class="project-card">
+            <div class="project-number">02</div>
+            <h3>Prototypes & MVPs</h3>
+            <p>Rapid prototyping and minimum viable products to validate ideas quickly.</p>
+          </div>
+          <div class="project-card">
+            <div class="project-number">03</div>
+            <h3>Consulting</h3>
+            <p>Technical guidance and development strategy for game and app projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-inner contact-inner">
+        <h2 class="section-title">Let's connect</h2>
+        <p>Interested in our games or want to work together? We'd love to hear from you.</p>
+        <div class="contact-links">
+          <a href="mailto:mauryavishal93@gmail.com" class="contact-link">mauryavishal93@gmail.com</a>
+          <a href="https://play.google.com/store/apps/dev?id=7465078553373901888" class="contact-link" target="_blank" rel="noopener">Our Play Store page</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><span class="logo-inline">MV-Labs Technology</span> — Games &amp; Projects</p>
+    <p class="footer-copy">© <span id="year"></span> MV-Labs Technology. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
