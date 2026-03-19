@@ -324,6 +324,9 @@ main { position: relative; z-index: 1; }
 .game-card[data-game="tidal"] .game-card-bg {
   background: linear-gradient(135deg, #1e3a5f 0%, #0c4a6e 50%, #0e7490 100%);
 }
+.game-card[data-game="dots"] .game-card-bg {
+  background: linear-gradient(135deg, #312e81 0%, #1d4ed8 45%, #06b6d4 100%);
+}
 .game-card:hover .game-card-bg { opacity: 0.55; }
 .game-card-content {
   position: relative;
