@@ -6,7 +6,7 @@ Official static website for **MV-Labs Technology**, showcasing our company, game
 
 - **About** — Who we are and what we stand for  
 - **Games** — Find My Puppy & Tidal Warfare with direct Google Play links  
-- **Other projects** — Mobile apps, prototypes, consulting  
+- **Other projects** — Build My Portfolio, mobile apps, prototypes, consulting  
 - **Contact** — How to get in touch  
 
 ## Run locally
