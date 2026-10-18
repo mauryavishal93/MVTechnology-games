@@ -516,6 +516,48 @@ main { position: relative; z-index: 1; }
 }
 .logo-inline { color: var(--accent); font-weight: 600; }
 .footer-copy { margin: 0.5rem 0 0; opacity: 0.8; }
+.footer-copy a {
+  color: var(--text-muted);
+  margin-left: 0.5rem;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  transition: color 0.2s;
+}
+.footer-copy a:hover { color: var(--accent); }
+
+/* ===== Privacy policy ===== */
+.policy-page {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: calc(var(--header-h) + 4rem) 1.5rem 5rem;
+}
+.policy-heading { margin-bottom: 2.5rem; }
+.policy-heading .section-label { margin-bottom: 0.75rem; }
+.policy-updated {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+.policy-content {
+  padding: clamp(1.5rem, 5vw, 3rem);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+.policy-content section + section { margin-top: 2rem; }
+.policy-content h2 {
+  margin: 0 0 0.65rem;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+.policy-content p,
+.policy-content li {
+  color: var(--text-muted);
+}
+.policy-content p { margin: 0.5rem 0; }
+.policy-content ul { padding-left: 1.4rem; }
+.policy-content a { color: var(--accent); }
 
 /* ===== Mobile ===== */
 @media (max-width: 768px) {
