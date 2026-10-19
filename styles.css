@@ -473,6 +473,7 @@ main { position: relative; z-index: 1; }
   color: var(--text-muted);
   font-size: 0.95rem;
 }
+.project-card .play-web { margin-top: 1rem; }
 
 /* ===== Contact ===== */
 .contact {
